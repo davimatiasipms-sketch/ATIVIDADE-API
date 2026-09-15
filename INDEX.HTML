@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cicalfer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+    <h2>Cadastro</h2>
+        <form>
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" maxlength="11" required placeholder="(00) 00000-0000">
+
+        <label for="cep">CEP:</label>
+        <input type="number" id="cep" name="cep" maxlength="8" required placeholder="00000-000">
+        
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro" name="logradouro" required placeholder="Ex: Rua Professor Vicente Ferreira Bueno 153 campo belo sumare">
+
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" name="numero" required placeholder="Ex: 123">
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" required placeholder="Ex: Centro">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required placeholder="Ex: Sumaré">
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required placeholder="Ex: SP">
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
